@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹프로그래밍 01분반 Daewon's web</title>
+    <script src="./hello.js"></script>
+    <link rel="stylesheet" href="./css/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{width: 950px; margin: 0 auto;}
+        *{font-family: "맑은 고딕", Arial, Helvetica, sans-serif; line-height: 150%;}
+        li{list-style-type: none;}
+        a{text-decoration: none;}
+    </style>
+</head>
+<body class="w3-margin-top">
+    <div id="page">
+        <header class="w3-container w3-margin-top">
+        <a href="./index.html"><span class="w3-text-indigo w3-xlarge w3-text-shadow">
+        <i class="fa fa-home"></i>
+        </span></a>
+        <h1>Who Am I?</h1>
+        <hr color="black">
+    </header>
+    <nav>
+        <ul class="w3-bar w3-indigo w3-center">
+            <li class="w3-bar-item w3-button w3-padding-large"><a href="#profile">Profile</a></li>
+            <li class="w3-bar-item w3-button w3-padding-large"><a href="#about">About</a></li>
+            <li class="w3-bar-item w3-button w3-padding-large"><a href="#favorite">Favorite</a></li>
+            <li class="w3-bar-item w3-button w3-padding-large"><a href="#rink">Sites</a></li>
+            <li class="w3-bar-item w3-button w3-padding-large"><a href="#contact">Contact</a></li>
+            <li class="w3-bar-item w3-button w3-padding-large"><a href="#gallery">Gallery</a></li>
+        </ul>
+    </nav>   
+    <section class="w3-left w3-container" style="width: 80%;">
+        <article><h2>본인 소개</h2>
+            <div id="profile">
+            <img withd="250" height="250" src="./myprofile/프로필1.jpg" alt="Profile"><br><br>
+            <table class="w3-table-all w3-hoverable">
+                <tr class="w3-indigo">
+                    <th>일자</th>
+                    <th>내용</th>
+                    <th>비고</th>
+                </tr>
+                <tr>
+                    <td>14년 3월 ~ 17년 1월</td>
+                    <td>내성고등학교 재학</td>
+                    <td>졸업 후 대학진학</td>
+                </tr>
+                <tr>
+                    <td>17년 3월</td>
+                    <td>동아대학교 경영정보학과 입학</td>
+                    <td>2학년 재학중</td>
+                </tr>
+                <tr>
+                    <td>19년 3월 ~ 20년 10월</td>
+                    <td>대한민국 육군 복무</td>
+                    <td>병장 만기전역</td>
+                </tr>
+                <tr>
+                    <td>20년 11월 ~ 현재</td>
+                    <td>좋은데이 주류 판촉 근무중</td>
+                    <td>--</td>
+                </tr>
+            </table>
+            <br><br>
+        </div>
+    </article>
+        <div id="about" class="w3-row">
+            <h2>제가 좋아하는 음악</h2>
+            <iframe width="500" height="300" src="https://www.youtube.com/embed/MW8jen4CJmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2>최근 관심있게 봤던 드라마</h2>
+            <iframe class="w3-col s10 w3-margin" width="500px" height="300px" src="https://www.youtube.com/embed/b96oSVw75lA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+            <iframe class="w3-col s10 w3-margin" width="500px" height="300px" src="https://www.youtube.com/embed/7sKJOiE1l90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>        
+        <div id=favorite class="w3-row">
+            <h2>작성했던 시집들</h2>
+            <img class="w3-col s3 w3-border w3-margin" src="./myprofile/숨바꼭질.png" alt="숨바꼭질">
+            <img class="w3-col s3 w3-border w3-margin" src="./myprofile/여행.png" alt="여행">
+            <img class="w3-col s3 w3-border w3-margin" src="./myprofile/치즈케이크.png" alt="치즈케이크">
+            </div>
+        <div class="w3-row">
+            <br><br>
+            <h2>촬영했던 사진들</h2>
+            <img class="w3-col s4 w3-border w3-margin" src="./img/Bike.jpg" alt="자전거">
+            <img class="w3-col s4 w3-border w3-margin" src="./img/Cherry_blossom.jpg" alt="벚꽃">
+            <img class="w3-col s4 w3-border w3-margin" src="./img/forest.jpg" alt="은행나무숲">
+            <img class="w3-col s4 w3-border w3-margin" src="./img/Pink_muhly.jpg" alt="핑크뮬리">
+        </div>
+        <div id="rink">
+            <p>↓↓ 관련 학과 사이트 ↓↓</p><br>
+            <a href="https://www.donga.ac.kr/" target="_blank">동아대학교</a><br><br>
+            <a href="http://dauist.donga.ac.kr/sites/dauist/index.do" target="_blank">경영대학</a><br><br>
+            <a href="http://mis.donga.ac.kr/sites/mis/index.do" target="_blank">경영정보학과</a><br><br>
+        </div>
+    </section>
+    <aside class="w3-right w3-container" style="width: 20%;">
+        <div class="login">
+            <h3>Log In</h3>
+            <form action="#">
+                아이디 :
+                <input type="text" name="id">
+                <br>
+                비밀번호 :
+                <input type="text" name="password">
+                <br><br>
+                <input type="submit" value="로그인">
+                <input type="reset" value="초기화">
+                <br>
+                <a href="register.html" target="_blank" id="register">회원가입</a>
+                <a href="PW_find.html" id="forgot">비밀번호찾기</a>
+            </form>
+        </div>
+    </aside>
+    <br><br><br>
+    <footer>
+        <div id="contact">
+            <h5>Contact</h5>
+            <p>Email : eodnjs190@naver.com</p>
+            <p>Phone : 010-6423-4326</p>
+            <h5>Follow</h5>
+            <a href="https://www.facebook.com/profile.php?id=100012997868202" target="_blank"><i class="fa fa-facebook" style="font-size: 30px;"></i></a>
+            <a href="https://github.com/DaeWon98" target="_blank"><i class="fa fa-github" style="font-size: 30px;"></i></a>
+            <a href="https://www.instagram.com/thousand_dae/" target="_blank"><i class="fa fa-instagram" style="font-size: 30px;"></i></a>
+            <br><br>
+            <p>Copyright (c) DaeWon</p>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>

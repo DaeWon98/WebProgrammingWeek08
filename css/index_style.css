@@ -1,0 +1,22 @@
+body {
+    width:950px; margin:0 auto;
+}
+h1 {
+    color: beige;
+    background-color: brown;
+}
+nav ul {
+    text-align: center; border-top: 2px solid cornflowerblue;
+    border-bottom: 2px solid cornflowerblue; padding : 15px 10px;
+}
+nav ul li {
+    display: inline;
+    padding: 15px 20px;
+    letter-spacing: 5px;
+}
+nav ul li:hover {
+    background-color: gainsboro;
+}
+nav li a:hover {
+    color:blue;
+}
